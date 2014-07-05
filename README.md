@@ -10,7 +10,7 @@ Phase 1 - Mono Runtime
 
 Phase 2 - MonoDevelop plugin for Tizen
 ======================================
-* https://github.com/kitsilanosoftware/monodevelop
+* https://github.com/kitsilanosoftware/MonoDevelop.Tizen
 
 Phase 3 - C++ to .NET API bindings
 ==================================
