@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Addin>
+    <Url>MonoDevelop.Tizen.MonoDevelop.Tizen_1.0.0.mpack</Url>
+    <Addin>
+      <Id>MonoDevelop.Tizen</Id>
+      <Namespace>MonoDevelop.Tizen</Namespace>
+      <Name>Tizen development</Name>
+      <Version>1.0.0</Version>
+      <BaseVersion />
+      <Author>Kitsilano Software Inc., Kitsilano Software Inc.</Author>
+      <Copyright>Copyright (c) 2014 Kitsilano Software Inc.</Copyright>
+      <Url />
+      <Description>Support for developing and deploying LGPLv2-compliant applications using Mono for Tizen. If your application is not LGPLv2-compliant then you will need to purchase a commercial license from Xamarin. See http://xamarin.com/licensing.</Description>
+      <Category>Mobile Development</Category>
+      <Dependencies>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Debugger</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Debugger.Soft</AddinId>
+          <Version>5.0</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Core</AddinId>
+          <Version>5.0.1</Version>
+        </AddinDependency>
+        <AddinDependency>
+          <AddinId>::MonoDevelop.Ide</AddinId>
+          <Version>5.0.1</Version>
+        </AddinDependency>
+      </Dependencies>
+      <OptionalDependencies />
+      <Properties>
+        <Property name="DownloadSize">125709</Property>
+      </Properties>
+    </Addin>
+  </Addin>
+</Repository>
