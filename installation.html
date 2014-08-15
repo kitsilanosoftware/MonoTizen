@@ -37,7 +37,7 @@
 </p>
 
         <h3>
-            <a href="#what-is-tizen"><span class="octicon octicon-link"></span></a>
+            <a href="#how-to-install"><span class="octicon octicon-link"></span></a>
             How do I install the Mono Tizen RPMs?
         </h3>
 
@@ -49,7 +49,28 @@
             <li>sdb shell rpm -Uvh /tmp/mono-core-3.6.0-0.armv7l.rpm</li>
             <li>sdb shell rm /tmp/mono-core-3.6.0-0.armv7l.rpm</li>
           </ul>
+        </p>
+
+        <h3>
+            <a href="#how-to-generated"><span class="octicon octicon-link"></span></a>
+            How were the RPMs generated?
+        </h3>
+
+        <p>
+          Like any other RPM!  The easiest is probably (from your host with the SDK install):
+
+          <ul>
+            <li>./build-vm.sh 2.2.1-i686 thix VM_SSH_PORT_FWD=2226 VM_BUNDLES=mono-tizen-rpm</li>
+            <li>./build-vm.sh 2.2.1-armv7l thax VM_SSH_PORT_FWD=2227 VM_BUNDLES='mono-tizen-rpm distcc'</li>
+          </ul>
           
+          Then into the VM (See <a href="https://github.com/kitsilanosoftware/MonoTizen.VMs#bundles">MonoTizen.VMs README</a> for more details):
+
+          <ul>
+            <li>su -c /root/setup.sh</li>
+            <li>rpmbuild -bb mono-tizen/rpm-build/SPECS/mono-core-3.6.1-1.spec'</li>
+          </ul>
+
         </p>
 
         <h3>
